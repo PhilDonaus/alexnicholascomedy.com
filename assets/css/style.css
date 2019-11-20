@@ -1,0 +1,95 @@
+
+
+
+.container-fluid {
+  padding: 0 !important;
+  
+}
+
+.row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.pager {
+  padding: 0;
+  min-height: 100vh;
+  width: 100vw;
+  background-color:black;
+  overflow: hidden;
+  
+}
+
+.portrait {
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.portrait img {
+  
+  min-height: 100%;
+  min-width:  100%;
+  width:100%;
+  margin: 0;
+  z-index: 1;
+}
+
+.portrait .over-content {
+  top:0;
+  left:0;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  color: black;
+  background-color: rgba(187,228,243,0.3);
+  text-align: center;
+}
+
+.over-content h2 {
+  margin-top: 6rem;
+  font-size: 3rem;
+  color:black;
+  
+}
+
+.over-content h1 {
+  font-family: Montserrat;
+  margin-top: 7em;
+  font-size: 5rem;
+}
+
+.over-content p {
+  color: white;
+  margin-top: 0.8rem;
+  font-size: 2rem;
+  
+}
+
+
+.events {
+  padding: 5rem;
+  margin: 5rem 5rem;
+  align-content: center;
+  
+}
+
+.event {
+  margin: auto 0;
+  color: white;
+  padding: 1rem;
+  
+}
+
+
+.event h2 {
+  text-shadow: rgba(187,228,243,1) 0 0 20px;
+}
+
+
+
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Encode Sans Semi Condensed', sans-serif;
+font-family: 'Anton', sans-serif;
