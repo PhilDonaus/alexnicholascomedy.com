@@ -1,0 +1,112 @@
+body {
+	width: 100vw;
+	overflow-x: hidden;
+	background-color: black;
+}
+
+
+
+.poster img {
+	position: absolute;
+	z-index: -1;
+	min-height: 100%;
+	min-width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: ease 0.7s;
+}
+
+.poster:hover img {
+	min-height: 105%;
+
+}
+
+
+.poster {
+	background-color: rgba(187,228,243,0.3);
+	min-height: 100vh;
+	overflow: hidden;
+	padding: 0;
+}
+
+.poster * {
+	text-align: center;
+	text-overflow: wrap;
+}
+
+
+.poster h1 {
+	position: absolute;
+	width: 100%;
+	font-size: 4rem;
+	top: 3rem;
+}
+
+.poster h2 {
+	position: absolute;
+	font-family: 'Odibee Sans', cursive;
+	font-size: 5rem;
+	color: white;
+	bottom: 3rem;
+	width: 100%;
+}
+
+.poster p {
+	font-size: 1.5rem;
+	color: white;
+	width: 100%;
+	padding: 0.5rem;
+}
+
+
+.windows {
+	height:34vh;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.3);
+}
+
+
+.windows img {
+	position: absolute;
+	z-index: -1;
+	max-width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: ease 0.7s;
+}
+
+.windows:hover img {
+	max-width: 110%;
+}
+
+.windows:hover {
+	background-color: rgba(0,0,0,0);
+}
+
+.windows .icon {
+	width: 30%;
+	filter: opacity(1) invert(1);
+}
+
+.windows:hover .icon{
+	filter:opacity(0.3);
+}
+
+/* Filter Colors:
+rgba(187,228,243,0.3)
+
+
+
+
+Keep Images center;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+Fonts:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Odibee Sans', cursive;
+
+*/

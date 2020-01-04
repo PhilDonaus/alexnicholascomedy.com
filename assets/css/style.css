@@ -1,4 +1,7 @@
-
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
 
 
 .container-fluid {
@@ -88,6 +91,7 @@
 }
 
 
+ee c
 
 
 font-family: 'Montserrat', sans-serif;
