@@ -66,14 +66,13 @@ body {
 
 .mediatron {
 	padding: 1.5rem;
-	height: 100vh;
+	height: 100%;
 	background-color: black;
 	color:white;
 }
 
 .typewriter {
 	font-family: Courier, monospace;
-	display: inline-block;
 }
 
 .typewriter h2 {
@@ -86,11 +85,14 @@ body {
     font-weight: 700;
     border-right: 4px solid orange;
     box-sizing: border-box;
+    width: 100%;
 }
 
 
 .typewriter p {
+	text-overflow: wrap;
 	margin-top: 5px;
+	max-width:100%;
 }
 
 
@@ -120,10 +122,10 @@ body {
 
 .controls {
 	bottom: 0;
-	
+
 }
 
-
+#mapid { height: 180px; }
 
 
 /* Top Section above */
